@@ -58,48 +58,78 @@ const MainContent = () => {
             <span className="text-yellow-100 animate-pulse ml-1">|</span>
           </h2>
           <p className=" text-white text-base md:text-xl mt-4">
-            Junior Web Developer passionate about building beautiful interfaces.
+            Software Developer passionate about building beautiful interfaces.
           </p>
-          <button className="mt-6 px-6 py-2 text-sm md:text-base text-black font-bold rounded-xl bg-amber-200 hover:bg-gray-50">
-            Hire Me
-          </button>
         </div>
       </section>
 
       <div className="bg-black py-16 px-4 md:px-8" id="about">
-        <h2 className="text-3xl font-bold text-gray-300 mb-14 text-center">About Me</h2>
+        <h2 className="text-3xl font-bold text-gray-300 mb-14 text-center">
+          About Me
+        </h2>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div>
             <p className="text-white leading-relaxed">
-              Hello! I'm <strong>Tigist Mesfin</strong>, a passionate junior web developer from Ethiopia. As a full-stack developer, I have the skills to turn your ideas into real, working websites or web apps. I can handle both the front-end and the back-end. I build clean, user-friendly, and responsive designs that look good on all devices. I also create strong, reliable features like forms, logins, and connections to databases.
-              <br /><br />
-              I focus on making it easy to use, fast, and well-organized, so it works smoothly for everyone.
+              Hello! I'm <strong>Tigist Mesfin</strong>, a{" "}
+              <strong>Software Developer</strong> from Ethiopia with
+              professional experience in building modern web and mobile
+              applications.
+              <br />
+              <br />I specialize in <strong>full-stack development</strong>,
+              combining frontend and backend technologies to create scalable,
+              responsive, and user-friendly software solutions. I enjoy
+              transforming ideas into functional applications, developing{" "}
+              <strong>RESTful APIs</strong>, integrating databases, implementing
+              secure authentication systems, and solving real-world technical
+              challenges.
+              <br />
+              <br />
+              I'm passionate about writing{" "}
+              <strong>clean, maintainable code</strong>, exploring new
+              technologies, and continuously improving my skills to build
+              innovative software solutions that deliver meaningful value.
             </p>
           </div>
 
           <div className="bg-gray-800 p-6 rounded-xl shadow-md w-full">
             <ul className="space-y-4 text-white">
-              <li><strong>Name:</strong> Tigist Mesfin</li>
-              <li><strong>Email:</strong> <a href="mailto:tigistmesfin777@gmail.com" className="text-amber-200 hover:underline">tigistmesfin777@gmail.com</a></li>
-              <li><strong>Location:</strong> Ethiopia</li>
-              <li><strong>Phone:</strong> 0973679533</li>
-              <li><strong>Freelance:</strong> Available</li>
+              <li>
+                <strong>Name:</strong>Tigist Mesfin
+              </li>
+              <li>
+                <strong>Email:</strong>{" "}
+                <a
+                  href="mailto:tigistmesfin777@gmail.com"
+                  className="text-amber-200 hover:underline"
+                >
+                  yohimesfin344@gmail.com
+                </a>
+              </li>
+              <li>
+                <strong>Location:</strong> Ethiopia
+              </li>
+              <li>
+                <strong>Phone:</strong> 0973679533
+              </li>
             </ul>
           </div>
         </div>
 
         <section id="skills" className=" bg-gray-800 px-6 py-10 mt-20">
-          <h1 className=" text-center text-3xl font-bold mb-12 text-white">My Skills</h1>
+          <h1 className=" text-center text-3xl font-bold mb-12 text-white">
+            My Skills
+          </h1>
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
             <div className="bg-black p-6 rounded-xl shadow-md hover:shadow-white hover:shadow-xl transition-shadow duration-300">
-              <h2 className="text-xl font-semibold text-amber-200 mb-4">Frontend</h2>
+              <h2 className="text-xl font-semibold text-amber-200 mb-4">
+                Frontend
+              </h2>
               <ul className="list-disc list-inside space-y-2 text-gray-200">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React.js</li>
                 <li>Next.js</li>
-                <li>Bootstrap</li>
                 <li>Tailwind CSS</li>
                 <li>Responsive Web Design</li>
                 <li>Cross-Browser Compatibility</li>
@@ -108,11 +138,11 @@ const MainContent = () => {
             </div>
 
             <div className="bg-black p-6 rounded-xl shadow-md hover:shadow-white hover:shadow-xl transition-shadow duration-300">
-              <h2 className="text-xl font-semibold text-amber-200 mb-4">Backend</h2>
+              <h2 className="text-xl font-semibold text-amber-200 mb-4">
+                Backend
+              </h2>
               <ul className="list-disc list-inside space-y-2 text-gray-200">
                 <li>Node.js</li>
-                <li>Flask</li>
-                <li>Python</li>
                 <li>Express.js</li>
                 <li>MySQL</li>
                 <li>RESTful API Design & Development</li>
@@ -122,7 +152,23 @@ const MainContent = () => {
             </div>
 
             <div className="bg-black p-6 rounded-xl shadow-md hover:shadow-white hover:shadow-xl transition-shadow duration-300">
-              <h2 className="text-xl font-semibold text-amber-200 mb-4">Tools & Others</h2>
+              <h2 className="text-xl font-semibold text-amber-200 mb-4">
+                Mobile & Desktop Development
+              </h2>
+              <ul className="list-disc list-inside space-y-2 text-gray-200">
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Electron.js</li>
+                <li>Cross-Platform Application Development</li>
+                <li>API Integration</li>
+                <li>Offline & Online Application Support</li>
+              </ul>
+            </div>
+
+            <div className="bg-black p-6 rounded-xl shadow-md hover:shadow-white hover:shadow-xl transition-shadow duration-300">
+              <h2 className="text-xl font-semibold text-amber-200 mb-4">
+                Tools & Others
+              </h2>
               <ul className="list-disc list-inside space-y-2 text-gray-200">
                 <li>GitHub</li>
                 <li>Figma (UI/UX Design)</li>
@@ -134,35 +180,108 @@ const MainContent = () => {
         </section>
 
         <section id="projects" className="py-16 px-4 mt-11">
-          <h1 className="text-center text-3xl font-bold mb-10 text-white">Projects</h1>
+          <h1 className="text-center text-3xl font-bold mb-10 text-white">
+            Projects
+          </h1>
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-700 p-6 rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
-              <h2 className="text-xl font-semibold text-white mb-2">Construction Management System</h2>
-              <p className="text-white mb-3">A full-stack app built with Flask & React to manage projects, employees, and progress.</p>
-              <a href="https://github.com/Tigist-mesfin/final.git" target="_blank" className="text-amber-300 hover:underline">View on GitHub</a>
+              <h2 className="text-xl font-semibold text-white mb-2">
+                Construction Management System
+              </h2>
+              <p className="text-white mb-3">
+                A full-stack app built with Flask & React to manage projects,
+                employees, and progress.
+              </p>
+              <a
+                href="https://github.com/Tigist-mesfin/final.git"
+                target="_blank"
+                className="text-amber-300 hover:underline"
+              >
+                View on GitHub
+              </a>
             </div>
 
             <div className="bg-amber-200 p-6 rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
-              <h2 className="text-xl font-semibold text-black mb-2">Hotel Website (Frontend)</h2>
-              <p className="text-black mb-3">A modern hotel landing page using React and Tailwind CSS.</p>
-              <a href="https://github.com/Tigist-mesfin/rori.git" target="_blank" className="text-blue-900 hover:underline">View on GitHub</a>
+              <h2 className="text-xl font-semibold text-black mb-2">
+                Hotel Website (Frontend)
+              </h2>
+              <p className="text-black mb-3">
+                A modern hotel landing page using React and Tailwind CSS.
+              </p>
+              <a
+                href="https://github.com/Tigist-mesfin/rori.git"
+                target="_blank"
+                className="text-blue-900 hover:underline"
+              >
+                View on GitHub
+              </a>
             </div>
           </div>
         </section>
 
-        <section id="contact" className="py-16 px-4">
-          <h1 className="text-center text-3xl font-bold mb-8 text-white">Contact</h1>
-          <div className="max-w-xl mx-auto text-center space-y-4 text-white">
-            <p>You can reach me at:</p>
-            <ul className="space-y-2">
-              <li><strong>Email:</strong> <a href="mailto:tigistmesfin777@gmail.com" className="block text-amber-300 hover:underline break-all">tigistmesfin777@gmail.com</a></li>
-              <li><strong>GitHub:</strong> <a href="https://github.com/Tigist-mesfin" className="block text-amber-300 hover:underline break-all">github.com/Tigist-mesfin</a></li>
-              <li><strong>Phone:</strong> 0973679533</li>
-            </ul>
-          </div>
-        </section>
+<section id="contact" className="py-20 px-4 bg-black">
+  <div className="max-w-5xl mx-auto">
+    <div className="text-center mb-12">
+      <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        Get In Touch
+      </h1>
+   
+    </div>
 
-        <p className="mt-11 text-white text-center text-xs md:text-sm px-4">© 2025 Tigist. All rights reserved.</p>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {/* Email */}
+      <a
+        href="mailto:tigistmesfin777@gmail.com"
+        className="bg-zinc-900 p-6 rounded-xl border border-zinc-800 hover:border-amber-300 transition-all duration-300 hover:-translate-y-1 text-center"
+      >
+        <div className="text-amber-300 text-3xl mb-4">
+          <i className="fas fa-envelope"></i>
+        </div>
+        <h2 className="text-white font-semibold text-lg mb-2">Email</h2>
+        <p className="text-gray-400 text-sm break-all">
+          yohimesfin344@gmail.com
+        </p>
+      </a>
+
+      {/* GitHub */}
+      <a
+        href="https://github.com/Tigist-mesfin"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-zinc-900 p-6 rounded-xl border border-zinc-800 hover:border-amber-300 transition-all duration-300 hover:-translate-y-1 text-center"
+      >
+        <div className="text-amber-300 text-3xl mb-4">
+          <i className="fab fa-github"></i>
+        </div>
+        <h2 className="text-white font-semibold text-lg mb-2">GitHub</h2>
+        <p className="text-gray-400 text-sm">
+          github.com/Tigist-mesfin
+        </p>
+      </a>
+
+      {/* Phone */}
+      <a
+        href="tel:+251973679533"
+        className="bg-zinc-900 p-6 rounded-xl border border-zinc-800 hover:border-amber-300 transition-all duration-300 hover:-translate-y-1 text-center"
+      >
+        <div className="text-amber-300 text-3xl mb-4">
+          <i className="fas fa-phone"></i>
+        </div>
+        <h2 className="text-white font-semibold text-lg mb-2">Phone</h2>
+        <p className="text-gray-400 text-sm">
+          +251 973 679 533
+        </p>
+      </a>
+    </div>
+
+   
+  </div>
+</section>
+
+
+        <p className="mt-11 text-white text-center text-xs md:text-sm px-4">
+          © 2025 Tigist. All rights reserved.
+        </p>
       </div>
     </div>
   );

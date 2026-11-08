@@ -48,7 +48,7 @@ const Sidebar = () => {
 
         {/* Description */}
         <p className="text-sm text-gray-300 text-center mb-6 px-4">
-          Junior Web Developer passionate about building beautiful interfaces.
+          Software Developer 
         </p>
 
         {/* Navigation Links */}
